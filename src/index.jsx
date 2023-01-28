@@ -38,7 +38,7 @@ const app =
         <div> Name: {data.name} </div>
         <div> Age: {data.age} </div>
     </div>
-    <div class="tooltip">You can also add them directly in the element that they will update either using state or manually using the "element.$update()".</div>
+    <div class="tooltip">You can also add the parameters directly in the element that they will update either using state or manually using the "element.$update()".</div>
     <div class="footer-button-container">
         { /* you can add events, using the property on: and the name of the event*/ }
         <button on:click={submit}> Submit </button>
